@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("./media/DSC_0941.JPG");
+    background-position: center;
+    background-size: cover;
+    opacity: 1.5;
+}
+
+nav img {
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+nav {
+    padding-left: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    flex: 1;
+    padding-left: 110px;
+    padding-top: 95px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 10px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    /* color:#0a1064; */
+    /* color: #4506fb; */
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.navbar ul li::after {
+    content: "";
+    width: 0%;
+    height: 5px;
+    background: red;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+.text-box {
+    width: 90%;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    color: rgba(4 135 238 / 99%);
+    font-size: 36px;
+}
+
+.text-box p {
+    color: rgb(238 240 244 / 99%);
+    margin: 49px 0 4px;
+    font-size: 17px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: red;
+    border: 1.5px solid #f57f17;
+    border-radius: 10px;
+    padding: 12px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border: 1.5px solid #c44040;
+    border-radius: 10px;
+    background: #aa1a1a;
+    color: white;
+    transition: 1s;
+}
+
+/* courses */
+.course {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1 {
+    color: rgb(3 4 86 / 99%);
+    font-size: 36px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.course-col {
+    flex-basis: 30%;
+    background: #eec3c3ba;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3 {
+    color: #1d2f8f;
+    text-align: center;
+    font-weight: 800;
+    margin: 10px 0px;
+}
+
+.course-col:hover {
+    box-shadow: 0 0 20px 0px;
+}
+
+/* Facilities */
+.facilities {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.facilities h1 {
+    margin-top: 30px;
+}
+
+.classroom {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.classroom img {
+    width: 100%;
+    height: 300px;
+    display: block;
+}
+
+.layer {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer h2 {
+    color: #1d2f8f;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.layer:hover {
+    background: rgba(231, 159, 159, 0.7);
+}
+
+.library {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.library img {
+    width: 100%;
+    height: 300px;
+}
+
+.hostel {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hostel img {
+    width: 100%;
+    height: 300px;
+}
+
+.layer:hover h2 {
+    bottom: 49%;
+    opacity: 1;
+}
+
+.lab {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.lab img {
+    width: 100%;
+    height: 300px;
+    display: block;
+}
+
+.Playground {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.Playground img {
+    width: 100%;
+    height: 300px;
+}
+
+.Canteen {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.Canteen img {
+    width: 100%;
+    height: 300px;
+}
+
+
+.testimonials {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+.testimonials-cols {
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #eec3c3ba;
+    cursor: pointer;
+    display: flex;
+}
+
+.testimonials-cols img {
+    padding: 10px;
+    height: 68px;
+    width: 87px;
+    margin-left: 8px;
+    /* margin-right: 30px; */
+    border-radius: 50%;
+}
+
+.testimonials-cols p {
+    padding: 10;
+}
+
+.testimonials-cols h3 {
+    margin-top: 15px;
+    text-align: left;
+}
+
+.star img {
+    padding: 0px;
+    height: 20px;
+    width: 20px;
+}
+
+/* call to action */
+.cta {
+    margin: 100px auto;
+    width: 80%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./media/banner2.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.cta h1 {
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer h4 {
+    font-weight: 600;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.icons img {
+    width: 30px;
+    height: 30px;
+    /* padding:20px; */
+    cursor: pointer;
+    color: red;
+}
+
+p img {
+    padding-top: 20px;
+    height: 20px;
+    width: 20px;
+}
+
+.fa-solid {
+    color: #f44336;
+}
+
+.sub-header {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("./media/background.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.sub-header h1 {
+    margin-top: 100px;
+    color: white;
+}
+
+.about-us {
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.about-cols {
+    flex-basis: 48%;
+    padding: 30px 2px;
+
+}
+
+.about-cols img {
+    width: 100%;
+}
+
+.about-cols h1 {
+    padding-top: 0;
+}
+
+.about-cols {
+    padding: 15px 0 25px;
+}
+
+
+.location {
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.location iframe {
+    width: 100%;
+}

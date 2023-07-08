@@ -1,0 +1,105 @@
+<html>
+
+<head>
+
+</head>
+<style>
+    body{
+        background: #192a56;
+    }
+    form fieldset{
+        border-radius: 6px;
+    }
+    form {
+        width: 401px;
+        height: 100vh;
+        margin: auto;
+        margin-top: 120px;
+    }
+    form textarea{
+        width: 100%;
+        background: #273c75;
+        outline: none;
+        border: none;
+    }
+    form legend{
+        font-size: large;
+        color:rgb(239, 16, 112);
+    }
+    form label{
+        color:#fff;
+        font-size: 15px;
+    }
+    form input{
+        width: 100%;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid rgb(239, 16, 112);
+        letter-spacing: 4px;
+        background: transparent;
+    }
+    form div{
+        display: flex;
+        justify-content: center;
+
+        /* text-align: center; */
+    }
+    form div button{
+        margin: 7px;
+        padding: 12px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        font-size: 15px;
+        font-weight: 600;
+        cursor: pointer;
+        background: #e84118;
+        color: #fff;
+    }
+    form div button:hover{
+        background: transparent;
+        box-shadow: 1px 1px 15px black;
+        transition: 0.5s;
+    }
+    form div a{
+        margin-top: 12px;
+        text-align: center;
+        text-decoration: none;
+        color:rgb(251, 18, 18);
+        padding:5px;
+        font-size: 21px;
+        font-weight: 600;
+    }
+</style>
+
+<body>
+    <form>
+        <fieldset>
+            <legend><b>Outsider form</b></legend>
+            <label for="name">Name: </label><br><br>
+            <input type="text" id="name" placeholder="Enter your name" name="name" maxlength="16"><br><br>
+
+            <label for="ph">Contact no.: </label><br><br>
+            <input type="tel" id="ph" placeholder="Enter your contact no." name="ph" maxlength="10"><br><br>
+
+            <label for="email">Email-id: </label><br><br>
+            <input type="email" id="email" name="Email-id" placeholder="Enter your emil-id"><br><br>
+
+            <label for="add"> Address: </label><br><br>
+            <textarea id="add" rows="3" cols="7">
+
+            </textarea><br><br>
+
+            <label for="fed"> What you want: </label><br><br>
+            <textarea id="fed" rows="3" cols="7">
+
+            </textarea><br><br>
+
+            <div>
+                <button>Submit</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
